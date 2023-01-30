@@ -1,0 +1,1 @@
+"ls-files" seçeneği depodaki dosyaları listeler ve "--exclude-standard" seçeneği standart olarak yoksayılan dosyaları hariç tutar. "--ignored" seçeneği yoksayılan dosyaları görüntüler ve "--others" seçeneği standart dışı diğer dosyaları görüntüler.
