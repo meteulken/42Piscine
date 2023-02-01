@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: buonturk <buonturk@student.42kocaeli.tr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/31 03:48:24 by buonturk          #+#    #+#             */
-/*   Updated: 2023/01/31 08:53:48 by buonturk         ###   ########.fr       */
+/*   Created: 2023/01/31 08:57:33 by buonturk          #+#    #+#             */
+/*   Updated: 2023/01/31 09:11:12 by buonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,29 +17,25 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_print_comb2(void)
+void	ft_putnbr(int nb)
 {
-	int	a;
-	int	b;
-
-	a = 0;
-	b = 0;
-	while (a <= 99)
+	if (nb == -2147483648)
 	{
-		b = a + 1;
-		while (b <= 99)
-		{
-			ft_putchar(a / 10 + '0');
-			ft_putchar(a % 10 + '0');
-			ft_putchar(' ');
-			ft_putchar(b / 10 + '0');
-			ft_putchar(b % 10 + '0');
-			if (a != 98 || b != 99)
-			{
-				write(1, &", ", 2);
-			}		
-			b++;
-		}
-		a++;
+		ft_putchar('-');
+		ft_putchar('2');
+		ft_putnbr(147483648);
 	}
+	else if (nb < 0)
+	{
+		ft_putchar('-');
+		nb *= -1;
+		ft_putnbr(nb);
+	}
+	else if (nb > 9)
+	{
+		ft_putnbr(nb / 10);
+		ft_putnbr(nb % 10);
+	}
+	else
+		ft_putchar(nb + 48);
 }
