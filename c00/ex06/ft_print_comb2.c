@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: buonturk <buonturk@student.42kocaeli.tr>   +#+  +:+       +#+        */
+/*   By: buonturk <buonturk@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/31 03:48:24 by buonturk          #+#    #+#             */
-/*   Updated: 2023/01/31 08:53:48 by buonturk         ###   ########.fr       */
+/*   Created: 2023/02/02 20:37:44 by buonturk          #+#    #+#             */
+/*   Updated: 2023/02/02 20:42:20 by buonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_print_comb2(void)
 
 	a = 0;
 	b = 0;
-	while (a <= 99)
+	while (a <= 98)
 	{
 		b = a + 1;
 		while (b <= 99)

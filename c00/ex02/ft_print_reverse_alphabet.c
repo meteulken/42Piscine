@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: buonturk <buonturk@student.42kocaeli.tr>   +#+  +:+       +#+        */
+/*   By: buonturk <buonturk@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/31 00:05:19 by buonturk          #+#    #+#             */
-/*   Updated: 2023/01/31 01:29:37 by buonturk         ###   ########.fr       */
+/*   Created: 2023/02/02 20:41:07 by buonturk          #+#    #+#             */
+/*   Updated: 2023/02/02 20:41:12 by buonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

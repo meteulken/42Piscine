@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: buonturk <buonturk@student.42kocaeli.tr>   +#+  +:+       +#+        */
+/*   By: buonturk <buonturk@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/30 23:46:15 by buonturk          #+#    #+#             */
-/*   Updated: 2023/01/30 23:47:58 by buonturk         ###   ########.fr       */
+/*   Created: 2023/02/02 20:34:02 by buonturk          #+#    #+#             */
+/*   Updated: 2023/02/02 20:40:35 by buonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
