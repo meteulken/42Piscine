@@ -6,7 +6,7 @@
 /*   By: buonturk <buonturk@student.42kocaeli.com.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 20:37:12 by buonturk          #+#    #+#             */
-/*   Updated: 2023/02/02 20:42:06 by buonturk         ###   ########.fr       */
+/*   Updated: 2023/02/03 02:06:11 by buonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	ft_print_comb(void)
 				write(1, &b, 1);
 				write(1, &c, 1);
 				if (a != '7')
-					write(1, &",  ", 1);
+					write(1, &", ", 2);
 				c++;
 			}
 			b++;
