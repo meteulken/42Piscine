@@ -6,8 +6,8 @@ void	ft_putchar(char c)
 }
 
 //
-//
-//
+//	asd
+//	asd
 //
 //
 //
