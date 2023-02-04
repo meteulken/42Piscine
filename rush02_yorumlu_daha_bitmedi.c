@@ -6,9 +6,9 @@ void	ft_putchar(char c)
 }
 
 //
+//	 asdas d
 //
-//
-//
+//			asdasdas
 //
 //
 //
